@@ -16,8 +16,7 @@ Here, we provide the following scripts:
 creates smORF_project with all directories that are necessary for the analysis.
 
 execution example: 
-
-``` bash create_directories.sh````
+```bash create_directories.sh```
 
 
 - #### set_working_environment.sh
@@ -34,7 +33,7 @@ execution example:
 example script that automates transcript assembly using Stringtie2 (Pertea et al., 2015) for multiple samples.
 
 execution example: 
-``` bash stringtie_assembly.sh```
+```bash stringtie_assembly.sh```
 
 
 - #### smorf_filtration.py
@@ -42,7 +41,7 @@ filters smORFs predicted by MiPepid based on coding potential and sequence lengt
 
 execution example:
 
-``` python smorf_filtration.py --table mipepid_res.csv --out_bed filtered_smORFs.bed --out_table filtered_smORFs.csv --out_nucl smORFs_nucleotide.fasta --out_prot smORFs_protein.fasta ```
+```python smorf_filtration.py --table mipepid_res.csv --out_bed filtered_smORFs.bed --out_table filtered_smORFs.csv --out_nucl smORFs_nucleotide.fasta --out_prot smORFs_protein.fasta ```
 
 
 
@@ -52,5 +51,5 @@ filters smORFs based on search against annotated proteins using MMSeqs2 (Steineg
 
 execution example: 
 
-``` python mmseq_filtration.py --mmseq SMORF_PROT_results.tsv --fasta smORFs_protein.fasta --out_smorfs filtered_smORFs.fasta ```
+```python mmseq_filtration.py --mmseq SMORF_PROT_results.tsv --fasta smORFs_protein.fasta --out_smorfs filtered_smORFs.fasta ```
 
