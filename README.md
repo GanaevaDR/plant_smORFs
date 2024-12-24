@@ -32,4 +32,4 @@ example script that automates transcript assembly using Stringtie2 (Pertea et al
 filters smORFs predicted by MiPepid based on coding potential and sequence length.
 
 - #### mmseq_filtration.py
-  filters smORFs based on search against annotated proteins using MMSeqs2 (Steinegger & Söding, 2017).
+filters smORFs based on search against annotated proteins using MMSeqs2 (Steinegger & Söding, 2017).
