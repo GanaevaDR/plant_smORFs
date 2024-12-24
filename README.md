@@ -2,7 +2,7 @@
 
 ![Pipeline_image](https://github.com/user-attachments/assets/835587cf-cad3-4385-9779-ce67d2e30abd)
 
-We provide a step-by-step pipeline for the identification of potentially coding smORFs in transcriptomic data. 
+We provide a step-by-step pipeline for the identification of potentially coding smORFs in plant transcriptomic data. 
 
 Our pipeline contains four major steps, which are:
 - preprocessing of raw transcriptomic data;
